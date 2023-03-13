@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>EHARMONY</title>
+  </head>
+
+  <body>
+    <section id="hero">
+      <nav class="navbar">
+        <a class="logo" href="index.html">Eharmony</a>
+        <div class="links-navbar">
+          <ul>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li><a href="#faq">Faqs</a></li>
+            <li><a href="#testimonial">Testimonial</a></li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+            <li>
+              <a href="login.php" class="secondary-button">Login</a>
+            </li>
+          </ul>
+        </div>
+        <div class="menu-hamburger">
+          <div class="button-burger-menu"></div>
+        </div>
+      </nav>
+
+      <div class="screen">
+        <div class="home">
+          <h1>Eharmony</h1>
+          <h2><span class="slogan-app"></span></h2>
+          <div class="btn__container">
+            <a href="register.php" class="btn">
+              <svg width="277" height="62">
+                <defs>
+                  <linearGradient id="grad1">
+                    <stop offset="0%" stop-color="#FF8282" />
+                    <stop offset="100%" stop-color="#E178ED" />
+                  </linearGradient>
+                </defs>
+                <rect
+                  x="5"
+                  y="5"
+                  rx="25"
+                  fill="none"
+                  stroke="url(#grad1)"
+                  width="266"
+                  height="50"
+                ></rect>
+              </svg>
+              <span>Create account</span>
+            </a>
+          </div>
+          <a href="login.php" class="mobile-login">Login</a>
+        </div>
+      </div>
+
+      <!-- <div class="hearts"> 
+      <img src="img/icons8-heart-100.png">
+      <img src="img/icons8-heart-100.png">
+      <img src="img/icons8-heart-100.png">
+      <img src="img/icons8-heart-100.png">
+      <img src="img/icons8-heart-100.png">
+      <img src="img/icons8-heart-100.png">
+      <img src="img/icons8-heart-100.png">
+    </div> -->
+    </section>
+    <section id="top__feature">
+      <div id="feature___heading">
+        <h1>Find Your Perfect Match!</h1>
+      </div>
+      <div class="box-container">
+        <div class="box">
+          <img class="card_icon" src="img/working.png" style="height: 185px" />
+          <p>Create your Profile</p>
+        </div>
+
+        <div class="box">
+          <img class="card_icon" src="img/discover.png" style="height: 185px" />
+          <p>Discover</p>
+        </div>
+
+        <div class="box">
+          <img
+            class="card_icon"
+            src="img/dating-app.png"
+            style="height: 185px"
+          />
+          <p>Chat & Ask Questions</p>
+        </div>
+
+        <div class="box">
+          <img class="card_icon" src="img/dating.png" style="height: 185px" />
+          <p>Meet & Date</p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section -->
+    <section id="about">
+      <div class="about">
+        <img src="./img/feature.png" class="pic" />
+        <div class="text">
+          <h5>Like <span id="about__span">&</span> Crush!</h5>
+          <p>
+            Did their profile catch your eye? Like it! When the feeling is
+            mutual, it’s a Crush! Then you can start chatting and getting to
+            know each other. Do you think you might fall hard for this one?
+            Increase your chances by sending them a Flashnote: a little
+            personalized message that will make you stand out!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- destiny -->
+    <section id="destiny">
+      <div class="destiny__section">
+        <div class="destiny__div3">
+          <div class="destiny__div3_head">
+            <h2>Sometimes destiny needs a boost!</h2>
+          </div>
+          <div class="destiny__div_body">
+            Walking down the street, sitting at a bar or on a night out, we've
+            all experienced it:<br />
+            you make eye contact with someone who catches your attention,
+            <br />but you don't dare go up to them. Now with happn, you
+            <br />can find the people you've crossed paths with and make your
+            own luck!
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- slider -->
+    <section id="testimonial">
+      <h2 class="section-heading">testimonials</h2>
+      <section class="slider__container">
+        <div class="testimonial mySwiper">
+          <div class="testi-content swiper-wrapper">
+            <div class="slide swiper-slide">
+              <img src="img/img1.jpg" alt="" class="image" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam, saepe provident dolorem a quaerat quo error facere
+                nihil deleniti eligendi ipsum adipisci, fugit, architecto amet
+                asperiores doloremque deserunt eum nemo.
+              </p>
+
+              <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+              <div class="details">
+                <span class="name">Marnie Lotter</span>
+              </div>
+            </div>
+            <div class="slide swiper-slide">
+              <img src="img/img2.jpg" alt="" class="image" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam, saepe provident dolorem a quaerat quo error facere
+                nihil deleniti eligendi ipsum adipisci, fugit, architecto amet
+                asperiores doloremque deserunt eum nemo.
+              </p>
+
+              <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+              <div class="details">
+                <span class="name">Marnie Lotter</span>
+              </div>
+            </div>
+            <div class="slide swiper-slide">
+              <img src="img/img3.jpg" alt="" class="image" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam, saepe provident dolorem a quaerat quo error facere
+                nihil deleniti eligendi ipsum adipisci, fugit, architecto amet
+                asperiores doloremque deserunt eum nemo.
+              </p>
+
+              <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+              <div class="details">
+                <span class="name">Marnie Lotter</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next nav-btn"></div>
+          <div class="swiper-button-prev nav-btn"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+    </section>
+
+    <!-- Tips -->
+      <section id="top__feature">
+        <div id="feature___heading">
+          <h1>Safety Tips</h1>
+        </div>
+        <div class="box-container">
+          <div class="box">
+            <img class="card_icon" src="img/suspicious.png" style="height: 150px" />
+            <p>Avoid connecting with <br> suspicious profiles.</p>
+          </div>
+  
+          <div class="box">
+            <img class="card_icon" src="img/blocked.png" style="height: 150px" />
+            <p>Don't be afraid <br> to report someone.</p>
+          </div>
+  
+          <div class="box">
+            <img
+              class="card_icon"
+              src="img/destination.png"
+              style="height: 150px"
+            />
+            <p>Limit your use <br> of location settings.</p>
+          </div>
+  
+          <div class="box">
+            <img class="card_icon" src="img/work-from-home.png" style="height: 150px" />
+            <p>Stick to what you <br> are comfortable with.</p>
+          </div>
+        </div>
+      </section>
+   
+   
+  </div>
+</div>
+
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="ct-container">
+        <h2 class="section-heading">Contact-Us</h2>
+        <div class="ct-content">
+          <div class="ct-left-side">
+            <div class="address ct-details">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="ct-topic">Address</div>
+              <div class="ct-text-one">Aligarh, UP</div>
+              <div class="ct-text-two">India</div>
+            </div>
+            <div class="phone ct-details">
+              <i class="fas fa-phone-alt"></i>
+              <div class="ct-topic">Phone</div>
+              <div class="ct-text-one">+0098 9893 5647</div>
+              <div class="ct-text-two">+0096 3434 5678</div>
+            </div>
+            <div class="email ct-details">
+              <i class="fas fa-envelope"></i>
+              <div class="ct-topic">Email</div>
+              <div class="ct-text-one">chatspace@gmail.com</div>
+              <div class="ct-text-two">info.chatspace@gmail.com</div>
+            </div>
+          </div>
+          <div class="ct-right-side">
+            <div class="ct-topic-text">Send us a message</div>
+            <p>
+              If you have any work from me or any types of quries related to my
+              tutorial, you can send me message from here. It's my pleasure to
+              help you.
+            </p>
+            <form  action="mail.php" method="post" autocomplete="off">
+              <div class="ct-input-box">
+                <input type="text" name="name" placeholder="Enter your name" />
+              </div>
+              <div class="ct-input-box">
+                <input type="text" name="Email" placeholder="Enter your email" id="email" name="email" />
+              </div>
+              <div class="ct-input-box message-box">
+                <textarea name="message" placeholder="Enter your message"></textarea>
+              </div>
+              <div class="ct-button">
+                <input type="submit" value="Submit"/>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+ <section id="faq">
+    <div>
+      <h2 class="section-heading">FAQs</h2>
+    </div>
+
+    <div class="faq-content">
+      <div class="faq-question">
+        <input id="q1" type="checkbox" class="panel" />
+        <div class="plus">></div>
+        <label for="q1" class="panel-title">What is chatSpace?</label>
+        <div class="panel-content">
+          chatSpace is a dating site and app that is designed to help you find
+          real love based on compatibility. Since 2000, we have been at the
+          forefront of creating highly compatible relationships based on key
+          dimensions of personality that predict the most successful,
+          meaningful relationships. And we are proud to say that over the last
+          20+ years, we have created over 2 million successful relationships
+          in over 125 countries.
+        </div>
+      </div>
+
+      <div class="faq-question">
+        <input id="q2" type="checkbox" class="panel" />
+        <div class="plus">></div>
+        <label for="q2" class="panel-title">When was chatSpace create?</label>
+        <div class="panel-content">
+          In 2023 chatSpace was created as one of the first algorithm-based
+          dating sites. Since then, chatSpace has been at the forefront of
+          creating highly compatible relationships based on key dimensions of
+          personality that predict the most sucessful, meaningful
+          relationships.
+        </div>
+      </div>
+
+      <div class="faq-question">
+        <input id="q3" type="checkbox" class="panel" />
+        <div class="plus">></div>
+        <label for="q3" class="panel-title">How safe is chatSpace?</label>
+        <div class="panel-content">
+          As the #1 Trusted Dating App*, chatSpace is committed to helping you
+          stay safe on chatSpace through our dedicated Trust & Safety team.
+          They are here to make sure you get the best experience on chatSpace
+          while also helping you find love. This highly skilled in-house team,
+          available 7 days a week, has over 15+ years of experience in
+          creating a safe dating platform for our members. They stay on top of
+          trends and use best-in-class tools and technology combined with
+          human review so all members can feel safe on their journey to find
+          real love.
+        </div>
+      </div>
+      <div class="faq-question">
+        <input id="q4" type="checkbox" class="panel" />
+        <div class="plus">></div>
+        <label for="q4" class="panel-title">Are there fake profiles on chatSpace?</label>
+        <div class="panel-content">
+          Our Trust & Safety Team works hard to try and keep fake profiles off
+          chatSpace. They work hard to make sure our members discover the most
+          compatible matches possible in a trusted environment. We use a
+          combination of industry-leading technology and human review to
+          combat fraud and help ensure profiles are legitimate. We also take
+          steps to ensure that you can flag anything you feel is suspicious to
+          the team for further investigation. Our goal at chatSpace is to
+          create a safe and inclusive dating environment for all members. So,
+          we are committed not only to helping you find love but also keeping
+          you safe.
+        </div>
+      </div>
+      <div class="faq-question">
+        <input id="q5" type="checkbox" class="panel" />
+        <div class="plus">></div>
+        <label for="q5" class="panel-title">How do you match on chatSpace?</label>
+        <div class="panel-content">
+          You match on chatSpace right away! The moment you finish the
+          Compatibility Quiz we start matching you with our pool of
+          high-quality singles who we feel fit your criteria and will be most
+          compatible with you and your lifestyle.
+        </div>
+      </div>
+      <div class="faq-question">
+        <input id="q6" type="checkbox" class="panel" />
+        <div class="plus">></div>
+        <label for="q6" class="panel-title">Is chatSpace free?</label>
+        <div class="panel-content">
+          Joining the chatSpace community is absolutely free. After completing
+          our Compatibility Quiz, you'll be able to review any matches that
+          are within the Match Preferences you specify. As a Basic Member, you
+          can view basic profile information about your matches at no charge.
+          You only pay when you're ready to take the next step and communicate
+          with all of the matches available to you and see their photos. Your
+          search for a great relationship has never been easier. By becoming a
+          Premium Member on chatSpace, you're enlisting the #1 Trusted Dating
+          App as your wingman or wingwoman. With unlimited matches, enhanced
+          search features, viewing photos, unlimited communication, exclusive
+          dating content, and much more, chatSpace can help you find your
+          match.
+        </div>
+      </div>
+      <div class="faq-question">
+        <input id="q7" type="checkbox" class="panel" />
+        <div class="plus">></div>
+        <label for="q7" class="panel-title">How to use chatSpace?</label>
+        <div class="panel-content">
+          How to use chatSpace is up to you. chatSpace is a place you can come
+          to to find real love - whatever that means to you. Using chatSpace is
+          simple - you can get up and running in just 3 easy steps: Sign up
+          and complete our Compatibility Quiz. Our unique Compatibility Quiz
+          helps us to create a Personality Profile that allows you to learn
+          more about yourself and what you're looking for in a relationship.
+          Discover your matches. After discovering what matters most to you in
+          a relationship, we provide you with a Match List that gives you
+          access to each match's profile so you can better understand who they
+          are and what they want. This list is constantly updated as new
+          compatible matches join so you'll never miss an opportunity to fall
+          in love. Make a meaningful connection. We've made making the first
+          move easier than ever with our communication tools. So, if you're
+          not sure where to begin, try sending a Smile or an Icebreaker to get
+          the conversation started.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-section">
+      <div class="footer-item">
+        <h2>Company</h2>
+        <p><a href=""> About Us</a></p>
+        <p><a href=""> Contact Us</a></p>
+        <p><a href=""> Our Services</a></p>
+        <p><a href=""> Privacy Policy</a></p>
+      </div>
+      <div class="footer-item">
+        <h2>Get Help</h2>
+        <p><a href=""> FAQ</a></p>
+        <p><a href=""> Payment Options </a></p>
+      </div>
+      <div class="footer-item">
+        <h2>Others</h2>
+        <p><a href=""> Blogs </a></p>
+        <p><a href=""> Jobs </a></p>
+        <p><a href=""> Legal </a></p>
+      </div>
+      <div class="footer-item social">
+        <h2>Follow Us</h2>
+        <ul>
+          <li><i class="fa-brands fa-instagram"></i></li>
+          <li><i class="fa-brands fa-linkedin-in"></i></li>
+          <li><i class="fa-brands fa-youtube"></i></li>
+          <li><i class="fa-brands fa-twitter"></i></li>
+        </ul>
+
+        <div class="language">
+
+          <select size="0px">
+            <option>English </option>
+            <option>English(UK) </option>
+            <option>Espanol </option>
+            <option>Italiano</option>
+            <option>Hindi </option>
+            <option>Portugues </option>
+            <option>Filipino </option>
+          </select>
+        </div>
+      </div>
+      
+    </div>
+    <hr>
+    <div class="Company">ChatSpace &copy; 2023</div>
+  </footer>
+  <!-- Swiper JS -->
+  <script src="js/swiper-bundle.min.js"></script>
+
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+  <script src="js/volet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="js/auto_type.js"></script>
+  <script src=" https://smtpjs.com/v3/smtp.js"></script>
+</body>
+
+</html>
