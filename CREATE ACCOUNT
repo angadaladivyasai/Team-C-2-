@@ -1,0 +1,151 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+ form  {
+		border: 10px solid #a4c7de;
+		background-color:rgb(18, 19, 19);
+		size: width 50pc;
+	
+
+	}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image:rgb(94, 114, 138);
+   }
+
+ * {
+  box-sizing: border-box;
+ }
+
+ /* Add padding to containers */
+ .container {
+  padding: 16px;
+  background-color: rgb(241, 227, 227);
+ }
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #5ba2e8;
+  color: rgb(249, 248, 248);
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: rgb(48, 143, 237);
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<form action="/action_page.php" aria-setsize="100">
+  <div class="container">
+    <center><h1>ChatSpace</h1>
+      </center>
+    <h4>Create an account</h4>
+    <p>We need informations to help you to foung your love</p>
+    <h4>Tell us more about yourself </h4>
+    <hr>
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter name" name="email" id="name" required>
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    <label for="number"><b>Phone number</b></label>
+    <input type="text" placeholder="Phone number" name="number" id="number" required>
+    <hr>
+    <h4>You gender:</section></h4>
+    <input type="radio" id="Man" name="fav_language" value="Man">
+    <label for="Man">Man</label>
+    <input type="radio" id="Woman" name="fav_language" value="Woman">
+    <label for="Woman">Woman</label><br>
+   <h4>You Search</h4>
+    <input type="radio" id="Man" name="fav_language" value="Man">
+  <label for="Man">Man</label>
+  <input type="radio" id="Woman" name="fav_language" value="Woman">
+  <label for="Woman">Woman</label><br><br>
+  
+<label for="start"><h4> Date of brith:</label>
+<input type="date" id="start" name="trip-start"
+       >
+<h4>Hobbies</h4>
+<input type="checkbox" id="Hobbies1" name="Hobbies1" value="Bike">
+<label for="Hobbies"> cooking</label><br>
+<input type="checkbox" id="Hobbies2" name="Hobbies2" value="Car">
+<label for="vehicle2"> Sport</label><br>
+<input type="checkbox" id="Hobbies3" name="Hobbies3" value="Boat">
+<label for="vehicle3"> Reading</label><br>
+<input type="checkbox" id="Hobbies4" name="Hobbies4" value="Car">
+<label for="vehicle2"> Music</label><br>
+<input type="checkbox" id="Hobbies5" name="Hobbies5" value="Car">
+<label for="vehicle2"> Dance</label><br>
+<input type="checkbox" id="Hobbies6" name="Hobbies6" value="Car">
+<label for="vehicle2"> Astronomy</label><br>
+<input type="checkbox" id="Hobbies7" name="Hobbies7" value="Car">
+<label for="vehicle2"> Gardening</label><br>
+<input type="checkbox" id="Hobbies8" name="Hobbies8" value="Car">
+<label for="vehicle2"> Photography</label><br>
+<input type="checkbox" id="Hobbies9" name="Hobbies9" value="Car">
+<label for="vehicle2"> sleeping</label><br>
+<input type="checkbox" id="Hobbies10" name="Hobbies10" value="Car">
+<label for="vehicle2"> Travel</label><br>
+<input type="checkbox" id="Hobbies11" name="Hobbies11" value="Car">
+<label for="vehicle2"> Cinema</label><br>
+<input type="checkbox" id="Hobbies12" name="Hobbies12" value="Car">
+<label for="vehicle2"> Video-Games</label><br>
+<input type="checkbox" id="Hobbies13" name="Hobbies13" value="Car">
+<label for="vehicle2"> Drawing</label><br>
+<input type="checkbox" id="Hobbies14" name="Hobbies14" value="Car">
+<label for="vehicle2"> Animals</label><br><br>
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+  
+  <div class="container signin">
+    <p>Already have an account? <a href="login from.html">Sign in</a>.</p>
+  </div>
+</form>
+
+</body>
+</html>
